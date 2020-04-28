@@ -98,14 +98,14 @@ height:70%;
 
   </div>
   
-  <form method="POST" id="myForm">
+  <form method="POST">
     <div class="form-group">
       <label for="username">Username</label>
-      <input type="text" class="form-control" id="username" placeholder="Enter Email Id" style="width:70%;">
+      <input type="email" class="form-control" id="username" placeholder="Enter Email Id" style="width:70%;"  autocomplete="username">
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password"style="width:70%;">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password"style="width:70%;"  autocomplete="current-password">
     </div>
     <div>
      <a href="index.php">Forget Password</a>
