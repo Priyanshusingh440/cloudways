@@ -3,6 +3,10 @@ function sendJSON(){
 	let username = document.querySelector('#username'); 
 	let pwd = document.querySelector('#pwd'); 
 	
+	var form = document.getElementById("myForm");
+	function handleForm(event) { event.preventDefault(); } 
+	form.addEventListener('submit', handleForm);
+	
 	var radios = document.getElementsByName('user_type');
 
 		for (var i = 0, length = radios.length; i < length; i++) {

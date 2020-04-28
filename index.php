@@ -98,7 +98,7 @@ height:70%;
 
   </div>
   
-  <form method="POST">
+  <form method="POST" id="myForm">
     <div class="form-group">
       <label for="username">Username</label>
       <input type="text" class="form-control" id="username" placeholder="Enter Email Id" style="width:70%;">
