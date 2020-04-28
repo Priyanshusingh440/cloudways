@@ -6,7 +6,7 @@ class connectdb
     
     private $servername='localhost';
     private $user='exuqekvqbv';
-    private $password='WmgHGXWA23@123';
+    private $password='WmgHGXWA23';
     private $dbname='exuqekvqbv';
     private $conn;
     
