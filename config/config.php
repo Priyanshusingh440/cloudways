@@ -5,9 +5,9 @@ class connectdb
 {
     
     private $servername='localhost';
-    private $user='pesrsxttfd';
-    private $password='Demo@123';
-    private $dbname='pesrsxttfd';
+    private $user='exuqekvqbv';
+    private $password='WmgHGXWA23@123';
+    private $dbname='exuqekvqbv';
     private $conn;
     
    public function connect()
